@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- TDH: Import from internal. -->
+    <item format="boolean" name="config_mms_content_disposition_support" type="bool">true</item>
+    <!-- TDH: Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
+    <bool name="config_cellBroadcastAppLinks">false</bool>
+    
+    <!-- TDH -->
+    <bool name="config_use_strict_phone_number_comparation">false</bool>
+
+    
+</resources>

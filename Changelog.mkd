@@ -1,0 +1,25 @@
+# KNOWN BUGS
+
+* Some incomplete phone numbers in the ComposeMessageActivity are deleted when you go to enter the message. I found the cause of this but there is not much I can do.
+* Contact photos may not sync properly. I will look into it.
+* Widget is flickery when it loads. I looked into it. Can't find problem; may be Samsung's bug since it doesn't happen in emulator.
+* Widget "Show more conversations" button goes to the compose message activity instead of the message list. This is very weird.
+* SMS receiving might be unreliable for you. Test it a lot!
+* MMS might not work for you.
+* Widget messages aren't sorted by date properly.
+
+# 4.1.1-3 (not yet released)
+
+* "Fix" a couple of notification-related bugs. Actually this just means it won't crash but the notification won't work either.
+I will hopefully make it so that it automatically sends me the logcat data I need to fix it.
+
+# 4.1.1-2
+
+* Fixed scrolling in conversations when new messages are sent and received.
+* Fix small rendering bug with "bounce" graphics in message list.
+* Enter key now inserts a new line instead of sending the message.
+* Fix bug where drafts result in notifications.
+* Show character count from 60 characters remaining instead of 10.
+* Fix most "popular" FC, I hope.
+* Fix widget crashing when you scroll to the bottom.
+
